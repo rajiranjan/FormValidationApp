@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<div class="container">
+    <form action="#" onsubmit="return myfun()" class="login active" id="form">
+        <h2 class="title">Login</h2>
+
+        <div class="form-group">
+        <label for="Name">Name</label>
+         <div class="input-group">
+             <input type="fname" id="name" placeholder="Name">
+             <i class='bx bxs-user' ></i>
+             <p id="nameerror"></p>
+             <!-- <p>Name must be between 2 and 23 characters</p> -->
+             </div>
+         </div>
+
+         <div class="form-group">
+            <label for="Email">Email</label>
+             <div class="input-group">
+                 <input type="email" id="email" placeholder="Email address">
+                 <i class='bx bx-envelope'></i>
+                 <p id="emailerror"></p>
+                 <!-- <p>Email is invalid</p> -->
+                 </div>
+             </div>
+
+             <div class="form-group">
+                <label for="Zipcode">Zipcode</label>
+                 <div class="input-group">
+                     <input type="Zipcode" id="Zipcode" placeholder="Zipcode">
+                     <i class='bx bx-package' ></i>
+                     <p id="zcodeerror"></p>
+                     <!-- <p>Zipcode is invalid</p> -->
+                     </div>
+                 </div>
+
+                 <div class="form-group">
+                    <label for="Phone number">Phone Number</label>
+                     <div class="input-group">
+                         <input type="Phone number" id="Phone number" placeholder="Phone number">
+                         <i class='bx bxs-phone' ></i>
+                         <p id="pnumbererror"></p>
+                         <!-- <p>Phone number is invalid</p> -->
+                         </div>
+
+                     </div>
+                     <input type="submit" class="btn-submit" value="Submit">
+                     
+    </form>
+</div>
+
+
+
+
+
+    <script src="action.js"></script>
+</body>
+</html>
